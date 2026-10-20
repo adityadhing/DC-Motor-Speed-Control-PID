@@ -45,16 +45,14 @@ DC-Motor-PID-Speed-Control/
 │   └── Performance metrics.m
 ├── 02_Results_and_Graphs/
 │   └── results and graphs PDF
-├── 05_Screenshots/
+├── 03_Screenshots/
 │   ├── 01_Speed_Response.png
 │   ├── 02_Transient_Response.png
 │   ├── 03_Load_Disturbance_Response.png
 │   ├── 04_Performance_Metrics.png
 │   └── 05_DC_Motor_Perfomance_Outputs.png
-├── 03_Technical_Report/
+├── 04_Technical_Report
 │   └── report files
-├── 05_Screenshots/
-│   └── screenshots
 
 ```
 
@@ -77,7 +75,7 @@ DC-Motor-PID-Speed-Control/
 5. Run the simulation and inspect the speed response in the Scope.
 6. Open `DC_Load_disturbance.slx` and run it separately to study the load-disturbance case.
 7. Run the MATLAB analysis scripts after the corresponding simulation has completed and the required logged variables are available.
-8. Save or export the generated graphs into `02_Results_and_Graphs`.
+8. Save or export the generated graphs into `03_Screenshots`.
 
 > The analysis scripts depend on workspace/output variables created by the simulation. Run the appropriate model first and check the variable names used by the script if MATLAB reports a missing field or variable.
 
@@ -108,19 +106,19 @@ The PNG images are stored in `05_Screenshots/`, not `02_Results_and_Graphs/`. If
 
 ### Reference speed response
 
-![DC motor reference speed response](05_Screenshots/01_Speed_Response.png)
+![DC motor reference speed response](Screenshots/01_Speed_Response.png)
 
 ### Transient response
 
-![DC motor transient response](05_Screenshots/02_Transient_Response.png)
+![DC motor transient response](Screenshots/02_Transient_Response.png)
 
 ### Load disturbance response
 
-![DC motor response under load disturbance](05_Screenshots/03_Load_Disturbance_Response.png)
+![DC motor response under load disturbance](Screenshots/03_Load_Disturbance_Response.png)
 
 ### Performance metrics
 
-![DC motor PID performance metrics](05_Screenshots/04_Performance_Metrics.png)
+![DC motor PID performance metrics](Screenshots/04_Performance_Metrics.png)
 
 ## MATLAB Code
 
