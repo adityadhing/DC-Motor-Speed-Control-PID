@@ -106,19 +106,22 @@ The PNG images are stored in `05_Screenshots/`, not `02_Results_and_Graphs/`. If
 
 ### Reference speed response
 
-![DC motor reference speed response](03_screenshots/01_Speed_Response.png)
+![DC motor reference speed response](./03_Screenshots/01_Speed_Response.png)
 
 ### Transient response
 
-![DC motor transient response](03_Screenshots/02_Transient_Response.png)
+![DC motor transient response](./03_Screenshots/02_Transient_Response.png)
 
 ### Load disturbance response
 
-![DC motor response under load disturbance](03_Screenshots/03_Load_Disturbance_Response.png)
+![DC motor response under load disturbance](./03_Screenshots/03_Load_Disturbance_Response.png)
 
 ### Performance metrics
 
-![DC motor PID performance metrics](03_Screenshots/04_Performance_Metrics.png)
+![DC motor PID performance metrics](./03_Screenshots/04_Performance_Metrics.png)
+
+### MATLAB Performance Output
+![MATLAB Performance Output](./03_Screenshots/05_DC_Motor_Performance_Outputs.png)
 
 ## MATLAB Code
 
